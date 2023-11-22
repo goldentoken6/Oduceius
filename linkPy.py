@@ -50,6 +50,7 @@ def save_data():
         probateDate = (textFile.readline()).strip()
         dateOfDeath = (textFile.readline()).strip()
         print(">>>>>>>>>>", docketNumber, " ", fullName, " ", probateDate, " ", dateOfDeath)
+        print("test github")
         textFile.close()
         
         decedent = personType.Person()
